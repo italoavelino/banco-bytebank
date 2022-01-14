@@ -1,0 +1,7 @@
+C:\italoavelino\Alura.CSharp\formacao-csharp-e-oop-alura\CSharp parte 5\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.dll
+C:\italoavelino\Alura.CSharp\formacao-csharp-e-oop-alura\CSharp parte 5\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.pdb
+C:\italoavelino\Alura.CSharp\formacao-csharp-e-oop-alura\CSharp parte 5\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\italoavelino\Alura.CSharp\formacao-csharp-e-oop-alura\CSharp parte 5\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
+C:\italoavelino\Alura.CSharp\formacao-csharp-e-oop-alura\CSharp parte 5\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb
+C:\italoavelino\Alura.CSharp\formacao-csharp-e-oop-alura\CSharp parte 5\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.xml
+C:\italoavelino\Alura.CSharp\formacao-csharp-e-oop-alura\CSharp parte 5\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.AssemblyReference.cache
