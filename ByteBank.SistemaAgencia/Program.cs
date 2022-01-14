@@ -13,7 +13,7 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            DateTime dataFimPagamento = new DateTime(2022, 8, 17);
+            DateTime dataFimPagamento = new DateTime(2022, 7, 17);
             DateTime dataCorrente = DateTime.Now;
 
             TimeSpan diferenca = TimeSpan.FromMinutes(60);
