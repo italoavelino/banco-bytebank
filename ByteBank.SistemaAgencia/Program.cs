@@ -16,7 +16,7 @@ namespace ByteBank.SistemaAgencia
             DateTime dataFimPagamento = new DateTime(2022, 7, 17);
             DateTime dataCorrente = DateTime.Now;
 
-            TimeSpan diferenca = TimeSpan.FromMinutes(60);
+            TimeSpan diferenca = dataCorrente - dataFimPagamento;
 
             string mensagem = "Vencimento em " + TimeSpanHumanizeExtensions.Humanize(diferenca);
 
