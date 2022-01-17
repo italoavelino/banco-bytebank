@@ -94,6 +94,13 @@ namespace ByteBank.Modelos
             _saldo += valor;
         }
 
+        /// <summary>
+        /// Realiza transferencia do <paramref name="valor"/> para uma <paramref name="contaDestino"/>.
+        /// </summary>
+        /// <param name="valor"> Representa o valor que sera transferido para a <paramref name="contaDestino"/> </param>
+        /// <param name="contaDestino"> Conta que ira receber a transferencia do <paramref name="valor"/> </param>
+        /// <exception cref="ArgumentException"> Exceção lançada quando o <paramref name="valor"/> a ser transferido é menor que 0 </exception>
+        /// <exception cref="OperacaoFinanceiraException"> Exceção lançada quando o <paramref name="valor"/> é menor do que o <see cref="Saldo"/> </exception>
         public void Transferir(double valor, ContaCorrente contaDestino)
         {
             if (valor < 0)
