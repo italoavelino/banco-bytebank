@@ -21,7 +21,8 @@ namespace ByteBank.SistemaAgencia
             string mensagem = "Vencimento em " + TimeSpanHumanizeExtensions.Humanize(diferenca);
 
             Console.WriteLine(mensagem);
-            
+
+            Console.WriteLine("Tecle ENTER para encerrar o programa");
             Console.ReadLine();
         }
 
