@@ -25,7 +25,6 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine("Tecle ENTER para encerrar o programa");
             Console.ReadLine();
         }
-
     }
 }
  
