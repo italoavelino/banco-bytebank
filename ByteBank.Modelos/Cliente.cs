@@ -22,6 +22,7 @@ namespace ByteBank.Modelos
                 _cpf = value;
             }
         }
+
         public string Profissao { get; set; }
     }
 }
