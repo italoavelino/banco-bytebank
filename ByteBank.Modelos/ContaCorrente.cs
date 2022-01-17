@@ -63,7 +63,7 @@ namespace ByteBank.Modelos
         }
 
         /// <summary>
-        /// Realiza o saque e atualiza o valor da propriedade <see cref="Saldo"/>.
+        /// Realiza o saque e atualiza o <paramref name="valor"/> da propriedade <see cref="Saldo"/>.
         /// </summary>
         /// <param name="valor"> Representa o valor do saque, deve ser maior que 0, e menor do que o <see cref="Saldo"/>. </param>
         /// <exception cref="ArgumentException"> Exceção lançada quando um valor negativo é utilizado no argumento <paramref name="valor"/>. </exception>
@@ -85,6 +85,10 @@ namespace ByteBank.Modelos
             _saldo -= valor;
         }
 
+        /// <summary>
+        /// Realiza o deposito do <paramref name="valor"/> a propriedade <see cref="Saldo"/>.
+        /// </summary>
+        /// <param name="valor"> Representa o valor que sera depositado a propriedade <see cref="Saldo"/> </param>
         public void Depositar(double valor)
         {
             _saldo += valor;
