@@ -16,6 +16,8 @@ namespace ByteBank.SistemaAgencia
             DateTime dataFimPagamento = new DateTime(2022, 7, 17);
             DateTime dataCorrente = DateTime.Now;
 
+            string teste = "Teste de conflitos no git";
+
             TimeSpan diferenca = dataCorrente - dataFimPagamento;
 
             string mensagem = "Vencimento em " + TimeSpanHumanizeExtensions.Humanize(diferenca);
